@@ -1,5 +1,6 @@
 * {
     font-family: "Montserrat", sans-serif;
+    outline: none;
 }
 
 body {
@@ -62,6 +63,11 @@ body {
     justify-content: space-between;
     max-width: 555px;
 }
+
+.selector .selector__title {
+    font-weight: bold;
+}
+
 .selector .selector__tabs {
     display: grid;
 }
@@ -120,6 +126,10 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+}
+
+#light > .counter__descrip {
+    width: 145px;
 }
 
 .counter .counter__buttons {
