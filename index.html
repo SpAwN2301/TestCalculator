@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="calc">
+        <div class="container">
+            <div class="calc__title">Расчет стоимости натяжных потолков с установкой</div>
+            <div class="table">
+                <div class="table__material">
+                    <div class="table__subtitle"><span>1. Материал</span></div>
+                    <div class="selector__wrapper">
+                        <div class="selector" id="typeOfFacture">
+                            <div class="selector__title">Тип фактуры</div>
+                            <div class="selector__tabs"></div>
+                        </div>
+
+                        <div class="selector" id="manufact">
+                            <div class="selector__title">Производитель</div>
+                            <div class="selector__content"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table__apartment">
+                    <div class="table__subtitle"><span>2. Помещение</span></div>
+                    <div class="counter" id="square">
+                        <div class="counter__descrip">Площадь, м2</div>
+                        <div class="counter__buttons">
+                            <button class="counter__minus">−</button>
+                            <div class="counter__amount">0</div>
+                            <button class="counter__plus">+</button>
+                        </div>
+                    </div>
+
+                    <div class="counter" id="corners">
+                        <div class="counter__descrip">Углы, шт</div>
+                        <div class="counter__buttons">
+                            <button class="counter__minus">−</button>
+                            <div class="counter__amount">0</div>
+                            <button class="counter__plus">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table__lighting">
+                    <div class="table__subtitle"><span>3. Освещение</span></div>
+                    <div class="counter" id="light">
+                        <div class="counter__descrip">Светильники, шт</div>
+                        <div class="counter__buttons">
+                            <button class="counter__minus">−</button>
+                            <div class="counter__amount">0</div>
+                            <button class="counter__plus">+</button>
+                        </div>
+                    </div>
+
+                    <div class="counter" id="chand">
+                        <div class="counter__descrip">Люстры, шт</div>
+                        <div class="counter__buttons">
+                            <button class="counter__minus">−</button>
+                            <div class="counter__amount">0</div>
+                            <button class="counter__plus">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="calc__descrip">
+                <span>Если введённые вами параметры верны</span>, то это окончательная стоимость полотен с установкой!<br>
+                Фактуру, цвет, аксессуары можно выбрать по образцам у замерщика.
+            </div>
+
+            <div class="finalWidget">
+                <div class="finalWidget__finalPrice">Итоговая стоимость:    <span id="totalPrice">2250</span><span> ₽</span></div>
+                <div class="checkout">
+                    <input type="tel" class="checkout__input" placeholder="Ваш телефон">
+                    <input type="submit" class="checkout__submit" value="Оформить заказ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
