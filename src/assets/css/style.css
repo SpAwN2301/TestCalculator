@@ -1,0 +1,204 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.calc {
+    padding-top: 93px;
+}
+
+.calc .calc__title {
+    margin-bottom: 40.5px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.table {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+}
+
+.table .table__material {
+    width: 555px;
+}
+
+.table .table__subtitle {
+    margin-bottom: 30px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F2F3F7;
+}
+
+.table .table__subtitle span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.selector__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 555px;
+}
+.selector .selector__tabs {
+    display: grid;
+}
+
+.selector .selector__items {
+    display: none;
+}
+
+.selector .selector__items.active {
+    display: grid;
+}
+
+.selector .selector__tabs, .selector .selector__items {
+    grid-template-columns: 1fr 1fr;
+
+    margin: 0;
+    padding-left: 0;
+}
+
+.selector .selector__tab,  .selector .selector__item{
+    cursor: pointer;
+
+    margin: 10px 10px 10px 0;
+
+    width: 120px;
+    height: 40px;
+
+    border: 1.5px solid #F2F3F7;
+    background-color: white;
+}
+
+.selector .selector__tab.active, .selector .selector__item.active {
+    background-color: #CC0033;
+    color: white;
+}
+
+.selector .selector__item:nth-child(even) {
+    margin-right: 0;
+    justify-self: end;
+}
+
+.table .table__apartment, .table .table__lighting {
+    width: 263px;
+}
+
+.counter {
+    margin: 0 69px 24px 69px;
+}
+
+.counter .counter__descrip {
+    margin-bottom: 15px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.counter .counter__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.counter .counter__plus, .counter .counter__minus {
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    font-size: 22px;
+}
+
+.counter .counter__amount {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.calc .calc__descrip {
+    margin-bottom: 34px;
+
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.calc .calc__descrip span {
+    color: #CC0033;
+}
+
+.finalWidget {
+    height: 92px;
+
+    padding: 0 28.5px 0 48px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #F2F3F7;
+}
+
+.finalWidget .finalWidget__finalPrice {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.finalWidget .finalWidget__finalPrice span {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.checkout {
+    display: flex;
+}
+
+.checkout .checkout__input {
+    width: 209px;
+    height: 50px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.checkout .checkout__submit{
+    width: 180.5px;
+    height: 50px;
+
+    background-color: #FFD200;
+
+    border: none;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
