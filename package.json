@@ -1,0 +1,23 @@
+{
+  "name": "TestCalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpAwN2301/TestCalculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpAwN2301/TestCalculator/issues"
+  },
+  "homepage": "https://SpAwN2301.github.io/TestCalculator",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
