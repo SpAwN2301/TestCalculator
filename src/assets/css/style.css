@@ -12,7 +12,7 @@ body {
 }
 
 .calc {
-    padding-top: 93px;
+    padding: 93px 0;
 }
 
 .calc .calc__title {
