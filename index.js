@@ -182,3 +182,27 @@ function calc(){
     console.log('Total price: ', totalPrice);
     document.getElementById('totalPrice').textContent = totalPrice;
 }
+
+let phoneInput   = document.getElementsByClassName('checkout__input')[0];
+let counterInput = 0;
+phoneInput.addEventListener('input', function (){
+    if(phoneInput.value.length == 1){
+        phoneInput.value += '(';
+    }
+    switch(phoneInput.value.length){
+        case 1: 
+            phoneInput.value += '(';
+            break;
+
+        case 5: 
+            phoneInput.value += ') ';
+            break;
+        case 10: 
+            phoneInput.value += '-';
+            break;
+        case 13: 
+            phoneInput.value += '-';
+            break;
+        default: 
+    }
+});
