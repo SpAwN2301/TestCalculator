@@ -295,3 +295,15 @@ body {
         font-size: 14px;
     }
 }
+
+@media (hover: none) {
+    .selector .selector__tab:hover,  .selector .selector__item:hover {
+        box-shadow: none;
+    }
+    .counter .counter__plus:hover, .counter .counter__minus:hover {
+        background-color:#F2F3F7;
+    }
+    .checkout .checkout__submit:hover {
+        box-shadow: none;
+    }
+}
