@@ -252,8 +252,9 @@ body {
         flex-direction: column;
     }
 
-    .table .table__apartment, .table .table__lighting {
+    .table .table__apartment, .table .table__lighting, .table .table__material {
         width: 100%;
+        max-width: none;
     }
 
     #typeOfFacture {
